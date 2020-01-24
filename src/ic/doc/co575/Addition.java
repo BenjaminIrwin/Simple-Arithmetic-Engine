@@ -33,4 +33,5 @@ public class Addition extends BinaryExpression {
     public Expression getRight() {
         return rightExpression;
     }
+
 }

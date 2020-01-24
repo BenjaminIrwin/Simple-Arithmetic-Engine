@@ -26,4 +26,20 @@ public class NaturalNumber implements Expression {
   public int depth() {
     return 0;
   }
-}
+
+  @Override
+  public int compareTo(Expression other) {
+
+    if (this.value > other.evaluate()) {
+      return 1;
+    } else if (this.value < other.evaluate()) {
+      return -1;
+    } else {
+      return 0;
+    }
+  }
+
+
+
+  }
+
