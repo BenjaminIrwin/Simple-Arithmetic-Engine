@@ -6,5 +6,5 @@ interface Expression extends Comparable<Expression> {
 
   int depth();
 
-  public int compareTo(Expression other);
+  int compareTo(Expression other);
 }

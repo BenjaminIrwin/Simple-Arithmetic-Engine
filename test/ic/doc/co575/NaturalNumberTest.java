@@ -1,9 +1,10 @@
 package ic.doc.co575;
 
-import org.junit.Test;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
+
+import org.junit.Test;
+
 
 public class NaturalNumberTest {
 

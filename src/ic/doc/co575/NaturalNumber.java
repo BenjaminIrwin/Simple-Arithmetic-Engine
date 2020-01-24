@@ -1,6 +1,8 @@
 package ic.doc.co575;
 
-/** This class represents a natural number */
+/**
+ * This class represents a natural number
+ */
 public class NaturalNumber implements Expression {
 
   private final int value;
@@ -39,7 +41,14 @@ public class NaturalNumber implements Expression {
     }
   }
 
-
-
+  @Override
+  public boolean equals(Object other) {
+    if (this.value == ((Expression) other).evaluate()) {
+      return true;
+    } else
+      return false;
   }
+
+
+}
 
