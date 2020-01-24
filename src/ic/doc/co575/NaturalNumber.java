@@ -45,8 +45,9 @@ public class NaturalNumber implements Expression {
   public boolean equals(Object other) {
     if (this.value == ((Expression) other).evaluate()) {
       return true;
-    } else
+    } else {
       return false;
+    }
   }
 
 

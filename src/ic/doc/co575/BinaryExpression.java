@@ -27,8 +27,9 @@ public abstract class BinaryExpression implements Expression {
   public boolean equals(Object other) {
     if (this.evaluate() == ((Expression) other).evaluate()) {
       return true;
-    } else
+    } else {
       return false;
+    }
   }
 
 }
