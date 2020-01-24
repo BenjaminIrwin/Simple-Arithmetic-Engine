@@ -1,5 +1,5 @@
 package ic.doc.co575;
 
-public abstract class BinaryExpression implements Expression {
+public abstract class BinaryExprssion implements Expression {
 
 }
